@@ -4,15 +4,22 @@ This is a simple React made application to help Jonno out with his piano chords 
 
 ---
 
-###Details of Simple Piano Chords & Scales
+###Basic Rundown
 
 - Shows a card with the name of a note, indicates if the note is sharp or flat and in major or minor.
+
+![main](../demo_images/Screenshot 2022-11-01 at 4.34.20 PM.png "Main View")
+
 - You can personally chose if you want to play the chord of that note or the scale.
 - Adjust the timer to specify how much time you want the note to show for before the card changes to another note. Chords might be fast to play, but scales can take an extra second. You can play a few chords that change every 10 second then play a few scales that change every 30 seconds. Change the time between cards as you like.
 - Start the time so the note changes on the time you have set.
 - If you are stuck thinking of the chord or scale that matches the note, click on the hint to reveal an image of both the chord and the scale.
-- Enjoy a personalised and randomised greeting on each load & refresh.
-- Learn a little with a randomly generated music fact each time you load the app.
+
+![hint](../demo_images/Screenshot 2022-11-01 at 4.36.56 PM.png "Hint Shown")
+
+- Enjoy a personalised and randomised greeting on each load & refresh AND learn a little with a randomly generated music fact each time you load the app:
+
+![personalise](../demo_images/Screenshot 2022-11-01 at 4.37.23 PM.png "Personalised")
 
 ---
 
