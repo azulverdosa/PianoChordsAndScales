@@ -36,11 +36,11 @@ const Card = ({ start, intervalSeconds }) => {
       className="ui card"
     >
       <div className="image">
-        <h3 style={{ margin: '5px' }}>
+        <h2 style={{ margin: '5px' }}>
           {partOfDay()} {nickName},
-        </h3>
+        </h2>
         <div className="meta" style={{ margin: '5px' }}>
-          <span>{phrase} </span>
+          <p style={{ fontSize: '16px' }}>{phrase}</p>
         </div>
       </div>
       <Chord start={start} intervalSeconds={intervalSeconds} />
