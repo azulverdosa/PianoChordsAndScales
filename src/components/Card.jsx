@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { akaJon, randomPhrases, randomPick } from '../db';
 import Chord from './Chord';
 
-const ChordCard = ({ start }) => {
+const Card = ({ start, intervalSeconds }) => {
   const [nickName, setNickName] = useState('');
   const [phrase, setPhrase] = useState('');
 
@@ -27,18 +27,25 @@ const ChordCard = ({ start }) => {
   };
 
   return (
-    <div style={{ display: 'flex', margin: '20px', marginBottom: '0px' }} className="ui card">
+    <div
+      style={{
+        display: 'flex',
+        width: '100%',
+        justifyContent: 'center',
+      }}
+      className="ui card"
+    >
       <div className="image">
-        <h3 style={{ marginBottom: '0px' }}>
+        <h3 style={{ margin: '5px' }}>
           {partOfDay()} {nickName},
         </h3>
-        <div className="meta">
+        <div className="meta" style={{ margin: '5px' }}>
           <span>{phrase} </span>
         </div>
       </div>
-      <Chord start={start} />
+      <Chord start={start} intervalSeconds={intervalSeconds} />
     </div>
   );
 };
 
-export default ChordCard;
+export default Card;
