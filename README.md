@@ -1,4 +1,4 @@
-#Simple Piano Chords & Scales
+#Piano Chords & Scales
 
 This is a simple React made application to help Jonno out with his piano chords and scales. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
 
