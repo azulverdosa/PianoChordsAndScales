@@ -11,10 +11,6 @@ const Chord = ({ start, intervalSeconds = 15 }) => {
     setShowHint(!showHint);
   };
 
-  //note: this doesn't work - why??
-  //  const handleHintClick = (event) => {
-  // event.preventDefault();
-
   useEffect(() => {
     setPickedChord(randomPick(chordKeysArray));
   }, []);
