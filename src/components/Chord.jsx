@@ -35,15 +35,16 @@ const Chord = ({ start, intervalSeconds = 15 }) => {
       >
         {chordsAndScales[pickedChord]?.name}
       </h1>
-      <div
+      <button
+        className="extra content"
         onClick={() => {
           handleHintClick();
         }}
-        className="extra content"
+        style={{ cursor: 'pointer', background: 'none', border: 'none', color: 'grey' }}
       >
         <i className="lightbulb outline icon" style={{ margin: '5px' }}></i>
         Hint
-      </div>
+      </button>
       <div style={{ display: 'flex' }} className="image">
         {showHint && (
           <img
