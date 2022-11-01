@@ -1,8 +1,8 @@
-APP NAME
+Simple Piano Chords & Scales
 
 This is a simple React made application to help Jonno out with his piano chords and scales. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
 
-Details of APP NAME
+Details of Simple Piano Chords & Scales
 
 - Shows a card with the name of a note, indicates if the note is sharp or flat and in major or minor.
 - You can personally chose if you want to play the chord of that note or the scale.
