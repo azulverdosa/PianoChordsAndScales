@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-const Slider = ({ value: propsValue, onChange: propsOnChange }) => {
+const Slider = ({ value: propsValue, onChange: propsOnChange, options, step }) => {
   const [value, setValue] = useState(propsValue);
 
   const slideHandler = (event) => {
@@ -9,27 +9,27 @@ const Slider = ({ value: propsValue, onChange: propsOnChange }) => {
     propsOnChange?.(newValue);
   };
 
+  useEffect(() => {
+    propsValue === value || setValue(propsValue);
+  }, [propsValue, value]);
+
   return (
     <div style={{ display: 'flex', margin: '20px' }}>
       <div className="slider">
-        {/* <label htmlFor="fader">Timer</label> */}
         <input
           type="range"
-          min="5"
-          max="30"
+          min={options[0]}
+          max={options.slice(-1)}
           value={value}
           id="fader"
-          step="5"
+          step={step}
           list="timesettings"
           onInput={slideHandler}
         />
         <datalist id="timesettings">
-          <option>5</option>
-          <option>10</option>
-          <option>15</option>
-          <option>20</option>
-          <option>25</option>
-          <option>30</option>
+          {options.map((option) => (
+            <option key={option}>{option}</option>
+          ))}
         </datalist>
         <p id="rangeValue">{value} seconds</p>
       </div>
