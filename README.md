@@ -12,7 +12,7 @@ This is a simple React made application to help Jonno out with his piano chords 
 
 - You can personally chose if you want to play the chord of that note or the scale.
 - Adjust the timer to specify how much time you want the note to show for before the card changes to another note. Chords might be fast to play, but scales can take an extra second. You can play a few chords that change every 10 second then play a few scales that change every 30 seconds. Change the time between cards as you like.
-- Start button to start the time and the note changes on the time you have set. You can start and stop the time with the spacebar and adjust the time slider with arrow keys.
+- Press the start button to start the timer and the note changes on the time you have set. You can start and stop the time with the spacebar and adjust the time slider with arrow keys.
 - If you are stuck thinking of the chord or scale that matches the note, click on the hint to reveal an image of both the chord and the scale.
 
 ![hint](./src/demo_images/hint.png 'Hint Shown')
