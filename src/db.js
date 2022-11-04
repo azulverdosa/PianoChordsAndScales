@@ -346,8 +346,13 @@ export const randomPhrases = [
   "The harmonica is the world's best-selling music instrument.",
 ];
 
-export const flat = '♭';
-export const sharp = '♯';
+export const intervalStepCount = 6;
+export const intervalStepLength = 5;
+
+export const intervalSteps = Array.from(
+  { length: intervalStepCount },
+  (_, index) => (index + 1) * intervalStepLength
+);
 
 export const randomPick = (arr) => {
   const getIndex = Math.floor(Math.random() * arr.length);
