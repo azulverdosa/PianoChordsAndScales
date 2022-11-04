@@ -20,9 +20,6 @@ const Chord = ({ start, intervalSeconds = 15 }) => {
     if (start) {
       interval = setInterval(() => {
         setPickedChord(randomPick(chordKeysArray));
-        console.log('start clicked');
-
-        console.log('This will run after 10 seconds!');
       }, 1000 * intervalSeconds);
     }
     return () => interval && clearInterval(interval);
