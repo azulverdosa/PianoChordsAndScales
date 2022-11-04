@@ -5,7 +5,6 @@ const Button = ({ disabled, handleStartClick, start, style }) => {
       disabled={disabled}
       onClick={() => {
         handleStartClick();
-        console.log('button start value :>> ', start);
       }}
       style={{
         alignItems: 'center',
