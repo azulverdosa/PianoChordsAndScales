@@ -155,7 +155,7 @@ To do:
 
 ---
 
-Shout-out to [Jon Eubank](https://github.com/) for letting me help him out, when he was perfectly capeable of doing it himself! 💚
+Shout-out to [Jon Eubank](https://github.com/joneubank) for letting me help him out, when he was perfectly capeable of doing it himself! 💚
 
 ##Contact
 
