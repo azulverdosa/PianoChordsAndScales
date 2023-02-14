@@ -259,7 +259,7 @@ export const akaJon = [
 ];
 
 export const randomPhrases = [
-  "'Mellifluous' is a sound that is pleasingly smooth and musical to hear, let's see what you got:",
+  "'Mellifluous' is a sound that is pleasingly smooth and musical to hear.",
   // 'People are more creative in the shower.',
   // 'Australia is wider than the moon.',
   // "It's illegal to own just one guinea pig in Switzerland.",
@@ -290,7 +290,7 @@ export const randomPhrases = [
   // 'France has a dozen time zones.',
   // 'Men who are feeling stressed out prefer women with curvier figures.',
   // 'Shaq only ever made one three-pointer.',
-  // 'Germany uncovers 2,000 tons of unexploded bombs every year.',
+  // 'Germany uncovers 2,000 tons of un-exploded bombs every year.',
   // "Every time you shuffle a deck of cards, you get a combination that's never existed.",
   // 'Actor Bill Murray uses a 1-800 number instead of an agent or manager.',
   // "There's a device that creates energy from the static electricity of snowfall.",
@@ -339,7 +339,7 @@ export const randomPhrases = [
   'Earworms can be triggered just by the experiences that bring up the memory of a song.',
   'The word piano is the shortened version of the word pianoforte, which means soft (piano) and loud (forte).',
   'The piano has the widest range of tones of all instruments.',
-  'The was first created in Italy by Bartolomeo Cristofori in 1709.',
+  'The piano was first created in Italy by Bartolomeo Cristofori in 1709.',
   'Music can help someone with severe brain injury, recall memories.',
   'Drummers have heightened problem solving abilities.',
   "People prefer the original versions of songs because it's the first version they heard, not because it's better.",
