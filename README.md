@@ -113,7 +113,7 @@ This is really a basic flash card memory game and could be changed to show anyth
       ...
 
         export const plantCare = {
-      AMJ: {
+      p1: {
         name: 'Daisy',
         sunRequirements: 'Full Sun',
         waterNeeds: 'Once a week',
@@ -121,7 +121,7 @@ This is really a basic flash card memory game and could be changed to show anyth
       ...
 
       export const foodCookingInstructions = {
-      AMJ: {
+      f1: {
         name: 'Chicken',
         temperature: 350,
         time: '25-30min',
