@@ -25,13 +25,14 @@
 
 Jon, a friend of mine, bought himself a new piano and is currently trying to teach himself how to play. He asked if I could come up with a simple application to help with his training, and so I obliged. This is a simple React made application to cycle through random chords and sclaes to test Jon's knowledge. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
 
-## Technologies Used
+## Tech Stack
 
 ---
 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![Jvascript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+![SemanticUIReact](https://img.shields.io/badge/Semantic%20UI%20React-35BDB2.svg?style=for-the-badge&logo=Semantic-UI-React&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 
 ## Features
@@ -71,12 +72,6 @@ Custom greeting and fun fact
 ## Setup
 
 ---
-
-### Dependencies
-
-- React
-- React-Dom
-- SemanticUI
 
 ### Run Locally
 
