@@ -23,7 +23,7 @@
 
 ---
 
-Jon, a friend of mine, bought himself a new piano and is currently trying to teach himself how to play. He asked if I could come up with a simple application to help with his training, and so I obliged. This is a simple React made application to cycle through random chords and sclaes to test Jon's knowledge. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
+Jon, a friend of mine, bought himself a new piano and is currently trying to teach himself how to play. He asked if I could come up with a simple application to help with his training, and so I obliged. This is a simple React made application to cycle through random chords and scales to test Jon's knowledge. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
 
 ## Tech Stack
 
