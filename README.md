@@ -11,8 +11,8 @@
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
-  - [Dependencies](#dependencies)
-  - [Available Commands](#available-commands)
+- [Dependencies](#dependencies)
+- [Available Commands](#available-commands)
 - [Usage](#usage)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
@@ -23,7 +23,7 @@
 
 ---
 
-Jon, a friend of mine, bought himself a new piano and is currently trying to teach himself how to play. He asked if I could come up with a simple application to help with his training, and so I obliged. This is a simple React made application to cycle through random chords and scales to test Jon's knowledge. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The syling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
+Jon, a friend of mine, bought himself a new piano and is currently trying to teach himself how to play. He asked if I could come up with a simple application to help with his training, and so I obliged. This is a simple React made application to cycle through random chords and scales to test Jon's knowledge. I applied some basic styling imported from a Semantic UI stylesheet as well as using some Semantic UI-React components. The styling proved to be some of the trickiest tasks to get it to look exactly the way I wanted.
 
 ## Tech Stack
 
@@ -42,18 +42,18 @@ Jon, a friend of mine, bought himself a new piano and is currently trying to tea
 Note Card
 
 - A card with the name of a note, indicates if the note is sharp or flat and in major or minor.
-- You can personally chose if you want to play the chord of that note or the scale.
+- You can personally choose if you want to play the chord of that note or the scale.
 
 ![main](./src/demo_images/main.png 'Main View')
 
 Start/Stop Button
 
-- Starts the timer that switches the note card that is is displayed.
-- Press the start button to start the timer and the note changes on the time you have set.
+- Starts the timer that switches the note card that is displayed.
+- Press the start button to start the timer and the note changes depending on the time you have set.
 
 Slider Timer
 
-- Adjust the timer to specify how long you want the note to be displayed before the card changes to another note. Chords might be fast to play, but scales can take an extra second. You can play a few chords that change every 10 second then play a few scales that change every 30 seconds. Change the time between cards as you like.
+- Adjust the timer to specify how long you want the note to be displayed before the card changes to another note. Chords might be fast to play, but scales can take an extra second. You can play a few chords that change every 10 seconds then play a few scales that change every 30 seconds. Change the time between cards as you like.
 - You can adjust the timer before you press start, or while the note cards are changing.
 - You can start and stop the time with the spacebar and adjust the time slider with arrow keys.
 
@@ -91,6 +91,7 @@ You will also see any lint errors in the console.
 
 <!-- ### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
 
+
 For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together. -->
 
 ## Usage
@@ -99,29 +100,30 @@ For running the server and app together I am using concurrently this helps a lot
 
 This is really a basic flash card memory game and could be changed to show anything on the card. By updating the `db.js` you can change the `chordsAndScales` array to hold anything you like:
 
-    export const chordsAndScales = {
-      AMJ: {
-        name: 'A MAJOR',
-        chordImage: A_majorChord,
-        scaleImage: A_majorScale,
-      },
-      ...
+export const chordsAndScales = {
+AMJ: {
+name: 'A MAJOR',
+chordImage: A_majorChord,
+scaleImage: A_majorScale,
+},
+...
 
-        export const plantCare = {
-      p1: {
-        name: 'Daisy',
-        sunRequirements: 'Full Sun',
-        waterNeeds: 'Once a week',
-      },
-      ...
+       export const plantCare = {
+     p1: {
+       name: 'Daisy',
+       sunRequirements: 'Full Sun',
+       waterNeeds: 'Once a week',
+     },
+     ...
 
-      export const foodCookingInstructions = {
-      f1: {
-        name: 'Chicken',
-        temperature: 350,
-        time: '25-30min',
-      },
-      ...
+
+     export const foodCookingInstructions = {
+     f1: {
+       name: 'Chicken',
+       temperature: 350,
+       time: '25-30min',
+     },
+     ...
 
 ## Project Status
 
@@ -133,7 +135,7 @@ Project is: COMPLETE
 
 ---
 
-Currently, the project is complete, (althought could use some fun styling) however I'll make any adjustments Jon requests as he improves his piano skills. Additionally, I'd like to add in some custom chords for Jon, to spice things up a bit.
+Currently, the project is complete, (although could use some fun styling) however I'll make any adjustments Jon requests as he improves his piano skills. Additionally, I'd like to add in some custom chords for Jon, to spice things up a bit.
 
 ![progressions](./src/demo_images/chord_progressions.png 'Chord Progressions')
 
@@ -150,7 +152,7 @@ To do:
 
 ---
 
-Shout-out to [Jon Eubank](https://github.com/joneubank) for letting me help him out, when he was perfectly capeable of doing it himself! 💚
+Shout-out to [Jon Eubank](https://github.com/joneubank) for letting me help him out, when he was perfectly capable of doing it himself! 💚
 
 ##Contact
 
@@ -168,7 +170,7 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## License
+## Licence
 
 MIT License Copyright (c) [2022] [AvaElise]
 
